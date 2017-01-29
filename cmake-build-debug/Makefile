@@ -150,32 +150,32 @@ Queue.cpp.s:
 	$(MAKE) -f CMakeFiles/Lab3_Eggensperger_Mariya.dir/build.make CMakeFiles/Lab3_Eggensperger_Mariya.dir/Queue.cpp.s
 .PHONY : Queue.cpp.s
 
-Queue_Tester.o: Queue_Tester.cpp.o
+queue_tester.o: queue_tester.cpp.o
 
-.PHONY : Queue_Tester.o
+.PHONY : queue_tester.o
 
 # target to build an object file
-Queue_Tester.cpp.o:
-	$(MAKE) -f CMakeFiles/Lab3_Eggensperger_Mariya.dir/build.make CMakeFiles/Lab3_Eggensperger_Mariya.dir/Queue_Tester.cpp.o
-.PHONY : Queue_Tester.cpp.o
+queue_tester.cpp.o:
+	$(MAKE) -f CMakeFiles/Lab3_Eggensperger_Mariya.dir/build.make CMakeFiles/Lab3_Eggensperger_Mariya.dir/queue_tester.cpp.o
+.PHONY : queue_tester.cpp.o
 
-Queue_Tester.i: Queue_Tester.cpp.i
+queue_tester.i: queue_tester.cpp.i
 
-.PHONY : Queue_Tester.i
+.PHONY : queue_tester.i
 
 # target to preprocess a source file
-Queue_Tester.cpp.i:
-	$(MAKE) -f CMakeFiles/Lab3_Eggensperger_Mariya.dir/build.make CMakeFiles/Lab3_Eggensperger_Mariya.dir/Queue_Tester.cpp.i
-.PHONY : Queue_Tester.cpp.i
+queue_tester.cpp.i:
+	$(MAKE) -f CMakeFiles/Lab3_Eggensperger_Mariya.dir/build.make CMakeFiles/Lab3_Eggensperger_Mariya.dir/queue_tester.cpp.i
+.PHONY : queue_tester.cpp.i
 
-Queue_Tester.s: Queue_Tester.cpp.s
+queue_tester.s: queue_tester.cpp.s
 
-.PHONY : Queue_Tester.s
+.PHONY : queue_tester.s
 
 # target to generate assembly for a file
-Queue_Tester.cpp.s:
-	$(MAKE) -f CMakeFiles/Lab3_Eggensperger_Mariya.dir/build.make CMakeFiles/Lab3_Eggensperger_Mariya.dir/Queue_Tester.cpp.s
-.PHONY : Queue_Tester.cpp.s
+queue_tester.cpp.s:
+	$(MAKE) -f CMakeFiles/Lab3_Eggensperger_Mariya.dir/build.make CMakeFiles/Lab3_Eggensperger_Mariya.dir/queue_tester.cpp.s
+.PHONY : queue_tester.cpp.s
 
 # Help Target
 help:
@@ -189,9 +189,9 @@ help:
 	@echo "... Queue.o"
 	@echo "... Queue.i"
 	@echo "... Queue.s"
-	@echo "... Queue_Tester.o"
-	@echo "... Queue_Tester.i"
-	@echo "... Queue_Tester.s"
+	@echo "... queue_tester.o"
+	@echo "... queue_tester.i"
+	@echo "... queue_tester.s"
 .PHONY : help
 
 

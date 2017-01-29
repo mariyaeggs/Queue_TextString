@@ -57,28 +57,28 @@ include CMakeFiles/Lab3_Eggensperger_Mariya.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Lab3_Eggensperger_Mariya.dir/flags.make
 
-CMakeFiles/Lab3_Eggensperger_Mariya.dir/Queue_Tester.cpp.o: CMakeFiles/Lab3_Eggensperger_Mariya.dir/flags.make
-CMakeFiles/Lab3_Eggensperger_Mariya.dir/Queue_Tester.cpp.o: ../Queue_Tester.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/student/Desktop/CSUMB/CST370/Week3/Lab3_Eggensperger_Mariya/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Lab3_Eggensperger_Mariya.dir/Queue_Tester.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lab3_Eggensperger_Mariya.dir/Queue_Tester.cpp.o -c /Users/student/Desktop/CSUMB/CST370/Week3/Lab3_Eggensperger_Mariya/Queue_Tester.cpp
+CMakeFiles/Lab3_Eggensperger_Mariya.dir/queue_tester.cpp.o: CMakeFiles/Lab3_Eggensperger_Mariya.dir/flags.make
+CMakeFiles/Lab3_Eggensperger_Mariya.dir/queue_tester.cpp.o: ../queue_tester.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/student/Desktop/CSUMB/CST370/Week3/Lab3_Eggensperger_Mariya/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Lab3_Eggensperger_Mariya.dir/queue_tester.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lab3_Eggensperger_Mariya.dir/queue_tester.cpp.o -c /Users/student/Desktop/CSUMB/CST370/Week3/Lab3_Eggensperger_Mariya/queue_tester.cpp
 
-CMakeFiles/Lab3_Eggensperger_Mariya.dir/Queue_Tester.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab3_Eggensperger_Mariya.dir/Queue_Tester.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/student/Desktop/CSUMB/CST370/Week3/Lab3_Eggensperger_Mariya/Queue_Tester.cpp > CMakeFiles/Lab3_Eggensperger_Mariya.dir/Queue_Tester.cpp.i
+CMakeFiles/Lab3_Eggensperger_Mariya.dir/queue_tester.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab3_Eggensperger_Mariya.dir/queue_tester.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/student/Desktop/CSUMB/CST370/Week3/Lab3_Eggensperger_Mariya/queue_tester.cpp > CMakeFiles/Lab3_Eggensperger_Mariya.dir/queue_tester.cpp.i
 
-CMakeFiles/Lab3_Eggensperger_Mariya.dir/Queue_Tester.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab3_Eggensperger_Mariya.dir/Queue_Tester.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/student/Desktop/CSUMB/CST370/Week3/Lab3_Eggensperger_Mariya/Queue_Tester.cpp -o CMakeFiles/Lab3_Eggensperger_Mariya.dir/Queue_Tester.cpp.s
+CMakeFiles/Lab3_Eggensperger_Mariya.dir/queue_tester.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab3_Eggensperger_Mariya.dir/queue_tester.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/student/Desktop/CSUMB/CST370/Week3/Lab3_Eggensperger_Mariya/queue_tester.cpp -o CMakeFiles/Lab3_Eggensperger_Mariya.dir/queue_tester.cpp.s
 
-CMakeFiles/Lab3_Eggensperger_Mariya.dir/Queue_Tester.cpp.o.requires:
+CMakeFiles/Lab3_Eggensperger_Mariya.dir/queue_tester.cpp.o.requires:
 
-.PHONY : CMakeFiles/Lab3_Eggensperger_Mariya.dir/Queue_Tester.cpp.o.requires
+.PHONY : CMakeFiles/Lab3_Eggensperger_Mariya.dir/queue_tester.cpp.o.requires
 
-CMakeFiles/Lab3_Eggensperger_Mariya.dir/Queue_Tester.cpp.o.provides: CMakeFiles/Lab3_Eggensperger_Mariya.dir/Queue_Tester.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Lab3_Eggensperger_Mariya.dir/build.make CMakeFiles/Lab3_Eggensperger_Mariya.dir/Queue_Tester.cpp.o.provides.build
-.PHONY : CMakeFiles/Lab3_Eggensperger_Mariya.dir/Queue_Tester.cpp.o.provides
+CMakeFiles/Lab3_Eggensperger_Mariya.dir/queue_tester.cpp.o.provides: CMakeFiles/Lab3_Eggensperger_Mariya.dir/queue_tester.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Lab3_Eggensperger_Mariya.dir/build.make CMakeFiles/Lab3_Eggensperger_Mariya.dir/queue_tester.cpp.o.provides.build
+.PHONY : CMakeFiles/Lab3_Eggensperger_Mariya.dir/queue_tester.cpp.o.provides
 
-CMakeFiles/Lab3_Eggensperger_Mariya.dir/Queue_Tester.cpp.o.provides.build: CMakeFiles/Lab3_Eggensperger_Mariya.dir/Queue_Tester.cpp.o
+CMakeFiles/Lab3_Eggensperger_Mariya.dir/queue_tester.cpp.o.provides.build: CMakeFiles/Lab3_Eggensperger_Mariya.dir/queue_tester.cpp.o
 
 
 CMakeFiles/Lab3_Eggensperger_Mariya.dir/Queue.cpp.o: CMakeFiles/Lab3_Eggensperger_Mariya.dir/flags.make
@@ -107,13 +107,13 @@ CMakeFiles/Lab3_Eggensperger_Mariya.dir/Queue.cpp.o.provides.build: CMakeFiles/L
 
 # Object files for target Lab3_Eggensperger_Mariya
 Lab3_Eggensperger_Mariya_OBJECTS = \
-"CMakeFiles/Lab3_Eggensperger_Mariya.dir/Queue_Tester.cpp.o" \
+"CMakeFiles/Lab3_Eggensperger_Mariya.dir/queue_tester.cpp.o" \
 "CMakeFiles/Lab3_Eggensperger_Mariya.dir/Queue.cpp.o"
 
 # External object files for target Lab3_Eggensperger_Mariya
 Lab3_Eggensperger_Mariya_EXTERNAL_OBJECTS =
 
-Lab3_Eggensperger_Mariya: CMakeFiles/Lab3_Eggensperger_Mariya.dir/Queue_Tester.cpp.o
+Lab3_Eggensperger_Mariya: CMakeFiles/Lab3_Eggensperger_Mariya.dir/queue_tester.cpp.o
 Lab3_Eggensperger_Mariya: CMakeFiles/Lab3_Eggensperger_Mariya.dir/Queue.cpp.o
 Lab3_Eggensperger_Mariya: CMakeFiles/Lab3_Eggensperger_Mariya.dir/build.make
 Lab3_Eggensperger_Mariya: CMakeFiles/Lab3_Eggensperger_Mariya.dir/link.txt
@@ -125,7 +125,7 @@ CMakeFiles/Lab3_Eggensperger_Mariya.dir/build: Lab3_Eggensperger_Mariya
 
 .PHONY : CMakeFiles/Lab3_Eggensperger_Mariya.dir/build
 
-CMakeFiles/Lab3_Eggensperger_Mariya.dir/requires: CMakeFiles/Lab3_Eggensperger_Mariya.dir/Queue_Tester.cpp.o.requires
+CMakeFiles/Lab3_Eggensperger_Mariya.dir/requires: CMakeFiles/Lab3_Eggensperger_Mariya.dir/queue_tester.cpp.o.requires
 CMakeFiles/Lab3_Eggensperger_Mariya.dir/requires: CMakeFiles/Lab3_Eggensperger_Mariya.dir/Queue.cpp.o.requires
 
 .PHONY : CMakeFiles/Lab3_Eggensperger_Mariya.dir/requires

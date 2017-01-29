@@ -22,7 +22,7 @@ using namespace std;
 */
 int main () {
 
-   ifstream myfile("Smple.txt");
+   ifstream myfile("sample.txt");
 
    Queue q;
    string line;

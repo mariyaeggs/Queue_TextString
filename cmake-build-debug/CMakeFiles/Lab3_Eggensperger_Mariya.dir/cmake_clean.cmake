@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Lab3_Eggensperger_Mariya.dir/Queue_Tester.cpp.o"
+  "CMakeFiles/Lab3_Eggensperger_Mariya.dir/queue_tester.cpp.o"
   "CMakeFiles/Lab3_Eggensperger_Mariya.dir/Queue.cpp.o"
   "Lab3_Eggensperger_Mariya.pdb"
   "Lab3_Eggensperger_Mariya"

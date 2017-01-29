@@ -86,7 +86,7 @@
 		<Unit filename="/Users/student/Desktop/CSUMB/CST370/Week3/Lab3_Eggensperger_Mariya/Queue.h">
 			<Option target="Lab3_Eggensperger_Mariya"/>
 		</Unit>
-		<Unit filename="/Users/student/Desktop/CSUMB/CST370/Week3/Lab3_Eggensperger_Mariya/Queue_Tester.cpp">
+		<Unit filename="/Users/student/Desktop/CSUMB/CST370/Week3/Lab3_Eggensperger_Mariya/queue_tester.cpp">
 			<Option target="Lab3_Eggensperger_Mariya"/>
 		</Unit>
 		<Unit filename="/Users/student/Desktop/CSUMB/CST370/Week3/Lab3_Eggensperger_Mariya/CMakeLists.txt">
