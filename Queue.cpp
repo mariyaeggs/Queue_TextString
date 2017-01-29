@@ -47,12 +47,11 @@ bool Queue::is_empty() const
  * of this queue, provided there is space; otherwise,
  * a queue-full message is displayed and execution
  * terminated.
- * @return void return
+ * @return bool return
 */
 void Queue::enqueue(const QueueElement & value)
 {
-   int myBack = (myBack+1) % QUEUE_CAPACITY;
-   int newBack;
+   int newBack = (myBack+1) % QUEUE_CAPACITY;
    if(newBack != myFront) // If queue is not full
    {
       myArray[myBack] = value;
@@ -101,7 +100,7 @@ QueueElement Queue::front() const
    else
    {
       cerr << "\nQueue is empty. Returning a garbage value." <<endl;
-      QueueElement garbage_value = 1111;
+      QueueElement garbage_value = "1111";
       return garbage_value;
    }
 }

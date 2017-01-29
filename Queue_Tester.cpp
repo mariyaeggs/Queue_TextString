@@ -1,7 +1,7 @@
 //----- Queue_Tester.cpp -----
 #include <iostream>
-#include <stack>
-#include <queue>
+#include <fstream>
+#include <string>
 
 using namespace std;
 
@@ -20,7 +20,47 @@ using namespace std;
  *
  * @author Mariya Eggensperger
 */
-int main() {
-   std::cout << "Hello, World!" << std::endl;
-   return 0;
+int main () {
+
+   ifstream myfile("Smple.txt");
+
+   Queue q;
+   string line;
+   string temp_str = "";
+   bool is_stored = false;
+
+
+   if(myfile.is_open()) {
+      while (!myfile.eof()) {
+         getline(myfile, line);
+         temp_str += line;
+      }
+   } else {
+      cout << "File cannot be opened.";
+      return 1;
+   }
+   myfile.close();
+   string str_queue = "";
+   for (char c : temp_str) {
+      if (c == '}') {
+         is_stored = false;
+         if(!str_queue.empty()) { // If the string is not empty
+            q.enqueue(str_queue);
+         }
+         str_queue = ""; // Clear str_queue
+      }
+      if (is_stored) {
+         str_queue += c;
+      }
+      if (c == '{') {
+         is_stored = true;
+      }
+   }
+   while(!q.is_empty()) {
+      cout << q.front() << endl;
+      q.dequeue();
+   }
 }
+
+
+

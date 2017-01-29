@@ -1,5 +1,6 @@
 //----- Queue.h -----
 #include <iostream>
+#include <string>
 using namespace std;
 
 /* Queue.h contains the declaration of class Queue.
@@ -35,7 +36,7 @@ using namespace std;
 */
 
 const int QUEUE_CAPACITY = 128;
-typedef int QueueElement;
+typedef string QueueElement;
 
 class Queue
 {
